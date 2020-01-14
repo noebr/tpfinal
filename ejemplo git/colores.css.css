@@ -1,0 +1,78 @@
+p { color: black;
+  font-size:25px;
+  font-style: italic;
+  font-family: Georgia;
+
+}
+H1 {color:blueviolet;
+}
+ H1 {color:black;
+}
+body { background-image: url(https://cdn.pixabay.com/photo/2017/01/16/17/45/pancake-1984716__340.jpg) ;
+    background-position: center center;
+    bacgound-size: cover;
+    
+   
+}
+div {
+   margin-top: 100px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+   margin-left: 10px;
+}     
+.centrar {
+
+        
+        font-size: 400%;
+         
+     }
+    . img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+     
+        
+      section{
+         animation-duration: 5s;
+         animation-name: aparecer;
+      }
+      
+      
+      @keyframes aparecer {
+         0% {
+           opacity: 0;
+         }
+         100% {
+           opacity: 1;
+         }
+      }
+      #contenedor {
+         
+         display: flex;
+         width: 300px;
+         height: 400px;
+       
+         flex-wrap: wrap;
+         align-content:space-between;
+       }
+       
+       .item item-1{
+         background: #777;
+         width: 50%;
+         height: 50px;
+       }
+       .item item-2{
+         background: #777;
+         width: 50%;
+         height: 50px;
+       }
+       
+      
+
+       
+
+        
+
+      
+      

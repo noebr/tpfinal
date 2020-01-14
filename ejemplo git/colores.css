@@ -1,0 +1,79 @@
+p { color: black;
+  font-size:25px;
+  font-style: italic;
+  font-family: Georgia;
+
+}
+
+ H1 {color:black;
+    font-size:40px;
+  font-style: italic;
+  font-family: Georgia;
+}
+
+div {
+   margin-top: 100px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+   margin-left: 10px;
+}     
+.centrar {
+
+        
+        font-size: 400%;
+         
+     }
+    . img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+     
+        
+      section{
+         animation-duration: 5s;
+         animation-name: aparecer;
+      }
+      
+      
+      @keyframes aparecer {
+         0% {
+           opacity: 0;
+         }
+         100% {
+           opacity: 1;
+         }
+      }
+      #container {
+         
+         display: flex;
+         width: 300px;
+         height: 400px;
+       
+         flex-wrap: wrap;
+         align-content:space-between;
+       }
+       
+       .item item-1{
+         background: #777;
+         width: 50%;
+         height: 50px;
+       }
+       .item item-2{
+         background: #777;
+         width: 50%;
+         height: 50px;
+       }
+       .form {
+         background:"https://www.telesurtv.net/__export/1568341774557/sites/telesur/img/2019/09/12/image.jpg_1718483347.jpg"
+
+       }
+       
+      
+
+       
+
+        
+
+      
+      
